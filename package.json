@@ -4,7 +4,7 @@
   "description": "Recipe application",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html --no-cache",
+    "start": "parcel index.html --no-cache --no-scope-hoist",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Peixuan",
